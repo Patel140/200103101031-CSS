@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>CSS Hover element selector</title>
+        <style type="text/css">
+            #MainUL li ul li{display: none;}
+            #MainUL li:hover ul li{display: block;}
+            #MainUL li:hover ul li ul li{display: none;}
+            #MainUL li ul li:hover ul li{display: block;}
+            #MainUL li ul li:hover ul li ul li{display: none;}
+            #MainUL li ul li ul li:hover ul li{display: block;}
+            
+        </style>
+    </head>
+    <body>
+        <ul id="MainUL">
+            <li>Google
+                <ul>
+                    <li>Gmail
+                        <ul>
+                            <li>Sign In</li>
+                            <li>Sign In   
+                                <ul>
+                                    <li>Sign In As Admin</li>
+                                    <li>Sign In As Member</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>you tube</li>
+                    <li>GDrive</li>
+                    <li>GMAp</li>
+                </ul>
+            </li>
+          <li>Face book</li>
+          <li>Microsoft
+            <ul>
+                <li>Bing</li>
+                <li>Linked In</li>
+            </ul>
+          </li>     
+          <li>MSN</li>
+          <li>Amazon
+            <ul>
+                <li>AWS</li>
+                <li>Ecommerce</li>
+                <li>A-ML</li>             
+            </ul>
+          </li>
+        </ul>
+    </body>
+</html>
